@@ -1,11 +1,11 @@
-package src;
+package src.web;
 
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import src.DTO.UserDTO;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;

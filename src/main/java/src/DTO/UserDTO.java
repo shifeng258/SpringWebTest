@@ -1,4 +1,4 @@
-package src;
+package src.DTO;
 
 /**
  * Created by SHIFENG258 on 2015/8/6.
